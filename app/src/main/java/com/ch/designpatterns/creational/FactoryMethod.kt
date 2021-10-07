@@ -1,4 +1,4 @@
-package com.ch.designpatterns.creational.factorymethod
+package com.ch.designpatterns.creational
 
 interface Document {
     fun showDocumentInfo()

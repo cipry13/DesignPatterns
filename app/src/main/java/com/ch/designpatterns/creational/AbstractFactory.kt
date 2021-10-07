@@ -1,4 +1,4 @@
-package com.ch.designpatterns.creational.abstractfactory
+package com.ch.designpatterns.creational
 
 interface EnemyShipFactory {
     fun createZaraShip(): EnemyShip

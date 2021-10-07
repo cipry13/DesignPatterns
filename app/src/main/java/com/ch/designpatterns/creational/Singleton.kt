@@ -1,4 +1,4 @@
-package com.ch.designpatterns.creational.singleton
+package com.ch.designpatterns.creational
 
 object Singleton {
     init {
@@ -16,9 +16,9 @@ fun main() {
     val obj1 = Singleton
     val obj2 = Singleton
 
-    obj1.message = "Kotlin is cool"
-    obj1.showMessage()
+    Singleton.message = "Kotlin is cool"
+    Singleton.showMessage()
 
-    obj2.message = "Kotlin is cooler"
-    obj1.showMessage()
+    Singleton.message = "Kotlin is cooler"
+    Singleton.showMessage()
 }
