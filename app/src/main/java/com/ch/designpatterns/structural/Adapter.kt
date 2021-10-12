@@ -39,4 +39,3 @@ fun main() {
     val adapter = IPhoneToAndroidAdapter(androidCharger)
     adapter.charge()
 }
-
